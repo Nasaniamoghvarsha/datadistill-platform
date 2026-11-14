@@ -1,0 +1,72 @@
+{
+  "_help": [
+    "EDIT THE NUMBERS AND SENTENCES HERE, then run:  pitch\\build.bat   (or: python pitch\\build.py)",
+    "Every figure and every claim in the video comes from this file: counters, captions, the lists of built / reused / limits, and the words the voice speaks.",
+    "The video is organised around the judging criteria (Problem 20 | Feasibility 15 | Technical 15 | User value 20 | Innovation 10 | Demo 10 | Brief 10).",
+    "A 'rail' at the bottom lights the criterion that is being shown, with one line of evidence, so a judge can find each of them.",
+    "Numbers below were read from the app on 14 Nov (Storage page, 4 recordings, 3.4 h) and from the test run (160 tests). Replace them with your final ones.",
+    "Honesty rules the judges check: say what was built and what was reused; say what is NOT proven. Do not turn an estimate into a result."
+  ],
+
+  "project": {
+    "name": "DataDistill",
+    "tagline": "Keep the knowledge, not the gigabytes.",
+    "event": "Built for the Ericsson Data Storage Optimization challenge",
+    "team": ""
+  },
+
+  "problem": {
+    "example_bytes": 1223051782,
+    "example_distilled_bytes": 2996075,
+    "example_source": "a real test recording, 2 h 35 min",
+    "brief": "Data Storage Optimization: G1 storage reduction, G2 data activation (search, AI-ready)"
+  },
+
+  "built": ["speaker attribution", "slide matching", "duplicates", "search", "offboarding", "web app"],
+  "reused": ["Whisper", "SpeechBrain", "Tesseract", "Ollama + Ministral"],
+  "built_note": "CHECK with the team what was built this weekend and what existed before, then edit the two lists above.",
+
+  "demo": {
+    "search_evidence": "real app, real recording: 'jvm' finds the slide at 00:00:26",
+    "dups_evidence": "two real decks: 18 of 28 pages unchanged, 10 changed, 6 removed",
+    "offboarding_evidence": "on a mock Microsoft 365 tenant: plan, approve, verify, quarantine, restore"
+  },
+
+  "proof": {
+    "per_recording": {"value": 99.7, "decimals": 1, "suffix": "%", "label": "smaller per recording",
+                      "sub": "video kept as text, slide pictures and voice samples"},
+    "recordings": 4,
+    "hours": 3.4,
+    "original_bytes": 1473690299,
+    "distilled_bytes": 4368728,
+    "words": 25791,
+    "scenarios": {"low": 94, "high": 97, "label": "estimated across a whole site", "note": "scenario assumptions are editable in the app"},
+    "tests": 164,
+    "realised_text": "25 MB",
+    "realised_sub": "net, so far: originals are kept until verified. 1.3 GB more is ready to free"
+  },
+
+  "limits": [
+    "Transcript accuracy is not yet measured against a human transcript",
+    "Offboarding is tested on a mock tenant, not a real one",
+    "Some speakers stay 'unknown'; the voice model is uncertain on short lines",
+    "Realised saving so far is small: originals are kept until verified"
+  ],
+
+  "next": {
+    "step": "a supervised pilot on one real leaver's OneDrive",
+    "risk": "accuracy on noisy meetings"
+  },
+
+  "replay_audit": {
+    "checked": 20,
+    "same": 19,
+    "method": "random moments of the two original videos (seed 7), original frame next to the slide picture the replay shows, counted by eye (python pitch/replay_audit.py). The one miss: a slide whose stored picture was taken a few seconds early."
+  },
+
+  "style": {
+    "voice": "af_heart",
+    "target_seconds": 60,
+    "max_speed": 1.12
+  }
+}

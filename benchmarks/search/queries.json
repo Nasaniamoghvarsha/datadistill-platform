@@ -1,0 +1,29 @@
+{
+  "_about": "Search test on the public CRCOG Legislative Committee recording (benchmarks/zoom-cases). Each query has the time (seconds) where the answer is said; a hit counts if its opened line is within 60 s of it. Queries are paraphrases, not copies of the transcript, plus Swedish and French questions about the English talk, misspelt words, and 'what did X say about Y'.",
+  "file": "CRCOG_Legislative_Committee_20261014.mp4",
+  "window_s": 60,
+  "queries": [
+    {"q": "research on where to site renewable energy facilities", "t": 195, "kind": "paraphrase"},
+    {"q": "funding for the CT Fast Track East study", "t": 778, "kind": "exact words"},
+    {"q": "continued money for the housing growth plan", "t": 1072, "kind": "paraphrase"},
+    {"q": "partnerships between public and private with state grants", "t": 1266, "kind": "paraphrase"},
+    {"q": "a guide to places to stay and events for visitors on a weekend", "t": 2037, "kind": "paraphrase"},
+    {"q": "when is the final report due to lawmakers", "t": 2428, "kind": "paraphrase"},
+    {"q": "let municipalities raise a local tax", "t": 2816, "kind": "paraphrase"},
+    {"q": "statewide proposals that are not requests from the council of governments", "t": 3591, "kind": "paraphrase"},
+    {"q": "legislators come to one location while not in session", "t": 4463, "kind": "paraphrase"},
+    {"q": "approve the minutes of the last meeting", "t": 13, "kind": "paraphrase"},
+    {"q": "policy board meeting moved to the 29th instead of the 28th", "t": 145, "kind": "paraphrase"},
+    {"q": "a technical correction", "t": 1554, "kind": "exact words"},
+    {"q": "grant writing public health and public safety initiatives", "t": 1653, "kind": "exact words"},
+    {"q": "external experts review the technical details of the report", "t": 2330, "kind": "paraphrase"},
+    {"q": "what did Matt Hart say about housing", "t": 1072, "kind": "speaker"},
+    {"q": "what did Jason say about bed and breakfasts", "t": 2037, "kind": "speaker"},
+    {"q": "finansiering för studien CT Fast Track East", "t": 778, "kind": "Swedish question"},
+    {"q": "bostadsplan och fortsatt finansiering", "t": 1072, "kind": "Swedish question"},
+    {"q": "rapport finale remise au législateur en février", "t": 2428, "kind": "French question"},
+    {"q": "réunion du conseil d'administration reportée au 29", "t": 145, "kind": "French question"},
+    {"q": "renewible energy siteing reserch", "t": 195, "kind": "misspelt"},
+    {"q": "Fast Trak Eest study fundng", "t": 778, "kind": "misspelt"}
+  ]
+}

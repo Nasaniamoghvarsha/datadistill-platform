@@ -1,0 +1,126 @@
+{
+ "flowchart": {
+  "nodes": [
+   "Start",
+   "Check stock?",
+   "Pack order",
+   "Ship",
+   "Back-order"
+  ],
+  "edges": [
+   {
+    "from": "Start",
+    "to": "Check stock?",
+    "label": "",
+    "directed": true,
+    "both": false
+   },
+   {
+    "from": "Check stock?",
+    "to": "Pack order",
+    "label": "yes",
+    "directed": true,
+    "both": false
+   },
+   {
+    "from": "Pack order",
+    "to": "Ship",
+    "label": "",
+    "directed": true,
+    "both": false
+   },
+   {
+    "from": "Check stock?",
+    "to": "Back-order",
+    "label": "no",
+    "directed": true,
+    "both": false
+   },
+   {
+    "from": "Back-order",
+    "to": "Pack order",
+    "label": "",
+    "directed": true,
+    "both": false
+   }
+  ]
+ },
+ "architecture": {
+  "nodes": [
+   "Browser",
+   "API Gateway",
+   "Auth Service",
+   "Orders Service",
+   "Database"
+  ],
+  "edges": [
+   {
+    "from": "Browser",
+    "to": "API Gateway",
+    "label": "HTTPS",
+    "directed": true,
+    "both": true
+   },
+   {
+    "from": "API Gateway",
+    "to": "Auth Service",
+    "label": "",
+    "directed": true,
+    "both": false
+   },
+   {
+    "from": "API Gateway",
+    "to": "Orders Service",
+    "label": "",
+    "directed": true,
+    "both": false
+   },
+   {
+    "from": "Orders Service",
+    "to": "Database",
+    "label": "SQL",
+    "directed": true,
+    "both": false
+   }
+  ]
+ },
+ "orgchart": {
+  "nodes": [
+   "CEO",
+   "CTO",
+   "CFO",
+   "Dev Lead",
+   "QA Lead"
+  ],
+  "edges": [
+   {
+    "from": "CEO",
+    "to": "CTO",
+    "label": "",
+    "directed": false,
+    "both": false
+   },
+   {
+    "from": "CEO",
+    "to": "CFO",
+    "label": "",
+    "directed": false,
+    "both": false
+   },
+   {
+    "from": "CTO",
+    "to": "Dev Lead",
+    "label": "",
+    "directed": false,
+    "both": false
+   },
+   {
+    "from": "CTO",
+    "to": "QA Lead",
+    "label": "",
+    "directed": false,
+    "both": false
+   }
+  ]
+ }
+}

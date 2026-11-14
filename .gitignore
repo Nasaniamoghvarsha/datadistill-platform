@@ -1,0 +1,55 @@
+# Environment / caches
+.venv/
+.pip-cache/
+.models/
+__pycache__/
+*.pyc
+.env
+
+# Ericsson partner data: NEVER commit (DQ risk: misuse of partner data)
+/data/
+/output/
+
+# Generated test artefacts (regenerate with scripts/make_test_media.py / make_corpus.py)
+testdata/_build/
+testdata/_corpus_build/
+testdata/_bench_*.wav
+
+# Frontend
+web/node_modules/
+web/dist/
+*.egg-info/
+
+# Ericsson partner material and everything processed from it: stays on the laptop, deleted after the event.
+ericsson data/
+*.wav
+*.sqlite*
+*.db-shm
+*.db-wal
+
+# Local tool settings
+.claude/
+scripts/demo/out/
+
+# Exports of Ericsson results for the team: never in git
+/exports/
+
+# Large test material (public videos, decks, the old demo library) stays on the laptop, not in git.
+# The mock Microsoft 365 tenant and scripts/demo use these folders when they exist; see docs/TEST_MATERIAL.md.
+/videos/
+/archive/
+/test-material/
+*.mp4
+*.m4v
+*.mov
+*.mkv
+*.webm
+*.avi
+
+# Pitch videos, screenshots and replay assets are built locally (see pitch/README.md)
+/pitch/out/
+/pitch/shots/
+/pitch/replay/
+
+# The platform's own demo videos (no partner or test data) are kept in git
+!/docs/video/*.mp4

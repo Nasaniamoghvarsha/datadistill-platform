@@ -1,0 +1,157 @@
+{
+ "written_from": "the human abstractive summary of AMI meeting ES2008a (AMI Meeting Corpus, CC BY 4.0) and its human transcript for names and wording; never from DataDistill output",
+ "recording": "AMI ES2008a / ES2008a.mp4 (17 min, 4 people, room camera + headset mix)",
+ "questions": [
+  {
+   "q": "What product is the team going to design?",
+   "facts": [
+    "remote control"
+   ]
+  },
+  {
+   "q": "Who is the project manager?",
+   "facts": [
+    "Rose"
+   ]
+  },
+  {
+   "q": "Who is the industrial designer?",
+   "facts": [
+    "Alima",
+    [
+     "industrial designer"
+    ]
+   ]
+  },
+  {
+   "q": "Who is the user interface designer?",
+   "facts": [
+    [
+     "Iain",
+     "Ian"
+    ],
+    "user interface designer"
+   ]
+  },
+  {
+   "q": "What did everyone draw in the tool training exercise?",
+   "facts": [
+    [
+     "favourite animal",
+     "favorite animal"
+    ]
+   ]
+  },
+  {
+   "q": "Which animal did Alima draw?",
+   "facts": [
+    "turtle"
+   ]
+  },
+  {
+   "q": "What will the remote sell for?",
+   "facts": [
+    [
+     "25 euro",
+     "25 euros"
+    ]
+   ]
+  },
+  {
+   "q": "What is the profit aim?",
+   "facts": [
+    [
+     "15 million"
+    ]
+   ]
+  },
+  {
+   "q": "Is the remote sold nationally or internationally?",
+   "facts": [
+    [
+     "international",
+     "internationally"
+    ]
+   ]
+  },
+  {
+   "q": "What is the maximum production cost per remote?",
+   "facts": [
+    [
+     "12 50",
+     "12.50",
+     "12 and a half",
+     "twelve fifty"
+    ]
+   ]
+  },
+  {
+   "q": "Which functions go on the main remote?",
+   "facts": [
+    "channel",
+    "volume"
+   ]
+  },
+  {
+   "q": "What would the additional remote contain?",
+   "facts": [
+    [
+     "special functions",
+     "special function"
+    ]
+   ]
+  },
+  {
+   "q": "What was the disagreement about combining remotes?",
+   "facts": [
+    [
+     "combining",
+     "combine",
+     "combined"
+    ],
+    [
+     "remotes",
+     "remote"
+    ]
+   ]
+  },
+  {
+   "q": "Which open question about the scope did the project manager promise to look into?",
+   "facts": [
+    [
+     "television",
+     "televisions",
+     "tv"
+    ]
+   ]
+  },
+  {
+   "q": "What will the industrial designer work on?",
+   "facts": [
+    "working design"
+   ]
+  },
+  {
+   "q": "What will the user interface designer work on?",
+   "facts": [
+    [
+     "technical functions",
+     "technical function"
+    ]
+   ]
+  },
+  {
+   "q": "Who will type up the minutes and email them?",
+   "facts": [
+    "Rose",
+    "minutes"
+   ]
+  },
+  {
+   "q": "What did Iain ask the project manager to email as well?",
+   "facts": [
+    "slides"
+   ]
+  }
+ ]
+}

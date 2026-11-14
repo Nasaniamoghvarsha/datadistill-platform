@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+/* Ericsson Blue design. Colours live in CSS variables (one light theme). */
+:root {
+  --c-canvas: #e7e9ee;   /* page behind the shell */
+  --c-shell: #f5f6f8;    /* large rounded area holding the page */
+  --c-surface: #ffffff;  /* cards */
+  --c-subtle: #f3f4f7;   /* soft fills inside cards */
+  --c-hover: #eef0f3;
+  --c-line: #e1e4e9;
+  --c-line-strong: #cdd2d9;
+  --c-fg: #0c0c0c;
+  --c-fg-2: #23272e;
+  --c-fg-3: #5b616b;
+  --c-fg-4: #8a919b;
+
+  --c-accent-50: #e5f1fd;
+  --c-accent-100: #cce4fb;
+  --c-accent-500: #0082f0;  /* Ericsson Blue */
+  --c-accent-600: #0069c2;  /* buttons */
+  --c-accent-700: #0060b3;  /* text on light */
+  --c-on-accent: #ffffff;
+
+  --c-ink: #0c0c0c;         /* active nav pill */
+  --c-on-ink: #ffffff;
+
+  --c-ok: #1f6e50;
+  --c-ok-bg: #e6f4ee;
+  --c-ok-bar: #288964;
+  --c-warn: #9a4a00;
+  --c-warn-bg: #fff1e2;
+  --c-warn-bar: #ff8c0a;
+  --c-bad: #b8222c;
+  --c-bad-bg: #fdecee;
+  --c-ai: #6b3fa0;
+  --c-ai-bg: #f3ecfa;
+
+  --c-scrim: rgba(12, 12, 12, 0.38);
+  --c-pop: 0 24px 60px rgba(12, 12, 12, 0.18);
+  --hero: linear-gradient(150deg, #0082f0 0%, #0057b8 70%, #003e8c 100%);
+  color-scheme: light;
+}
+
+@theme inline {
+  --font-sans: "Plus Jakarta Sans Variable", "Plus Jakarta Sans", "Inter Variable", "Segoe UI", system-ui, sans-serif;
+
+  --color-canvas: var(--c-canvas);
+  --color-shell: var(--c-shell);
+  --color-surface: var(--c-surface);
+  --color-subtle: var(--c-subtle);
+  --color-hover: var(--c-hover);
+  --color-line: var(--c-line);
+  --color-line-strong: var(--c-line-strong);
+  --color-fg: var(--c-fg);
+  --color-fg-2: var(--c-fg-2);
+  --color-fg-3: var(--c-fg-3);
+  --color-fg-4: var(--c-fg-4);
+
+  --color-accent-50: var(--c-accent-50);
+  --color-accent-100: var(--c-accent-100);
+  --color-accent-500: var(--c-accent-500);
+  --color-accent-600: var(--c-accent-600);
+  --color-accent-700: var(--c-accent-700);
+  --color-on-accent: var(--c-on-accent);
+  --color-ink: var(--c-ink);
+  --color-on-ink: var(--c-on-ink);
+
+  --color-ok: var(--c-ok);
+  --color-ok-bg: var(--c-ok-bg);
+  --color-ok-bar: var(--c-ok-bar);
+  --color-warn: var(--c-warn);
+  --color-warn-bg: var(--c-warn-bg);
+  --color-warn-bar: var(--c-warn-bar);
+  --color-bad: var(--c-bad);
+  --color-bad-bg: var(--c-bad-bg);
+  --color-ai: var(--c-ai);
+  --color-ai-bg: var(--c-ai-bg);
+  --color-scrim: var(--c-scrim);
+}
+
+html, body, #root { height: 100%; }
+body {
+  @apply bg-canvas text-fg antialiased;
+  font-size: 14px;
+  line-height: 20px;
+}
+.tnum { font-variant-numeric: tabular-nums; }
+.hero { background: var(--hero); color: #ffffff; }
+.shadow-pop { box-shadow: var(--c-pop); }
+::selection { background: var(--c-accent-100); }
+
+@utility panel { @apply rounded-[22px] bg-surface; }
+@utility th { @apply h-10 border-b border-line bg-subtle px-4 text-left text-xs font-bold text-fg-3 whitespace-nowrap; }
+@utility td { @apply border-b border-line px-4 py-3 text-sm text-fg-2 align-middle; }
+@utility field { @apply h-10 rounded-full border border-line bg-surface px-4 text-sm text-fg outline-none transition placeholder:text-fg-4 focus:border-accent-500 focus:ring-4 focus:ring-accent-100; }
+@utility link { @apply font-semibold text-accent-700 hover:underline underline-offset-2; }
+@utility field-area { @apply rounded-2xl border border-line bg-surface px-4 py-2.5 text-sm text-fg outline-none transition placeholder:text-fg-4 focus:border-accent-500 focus:ring-4 focus:ring-accent-100; }

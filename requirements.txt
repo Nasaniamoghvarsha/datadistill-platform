@@ -1,0 +1,42 @@
+# Install PyTorch first (CUDA build for the RTX 4060):
+#   pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu126
+# Then: pip install -r requirements.txt
+
+# Video / audio / ASR
+faster-whisper
+opencv-python
+mediapipe        # Apache-2.0 (Google): face landmarks, mouth movement of camera tiles
+requests         # Ollama and Microsoft Graph
+# Documents  (do NOT use PyMuPDF: AGPL-3.0 / paid commercial licence)
+pypdfium2        # Apache-2.0 / BSD-3: render pages, extract text, read metadata
+pdfplumber       # MIT: text with positions (layout / title detection)
+python-pptx
+# Hashing / matching
+imagehash
+pillow
+rapidfuzz
+# OCR
+pytesseract
+# Search
+rank_bm25
+sentence-transformers
+faiss-cpu
+# Web backend (frontend lives in web/, React + Vite via npm)
+fastapi
+uvicorn[standard]
+python-multipart
+# Speaker diarization: ECAPA voice embeddings (Apache-2.0) + clustering
+speechbrain
+scikit-learn
+scipy
+# Report PDF (BSD licence)
+reportlab
+
+# Meeting summaries: Ollama (MIT, separate install) with ministral-3:8b (Apache-2.0): `ollama pull ministral-3:8b`
+requests
+
+# Utils
+numpy
+tqdm
+python-dotenv
+pyyaml

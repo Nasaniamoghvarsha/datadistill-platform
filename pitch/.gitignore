@@ -1,0 +1,8 @@
+models/
+out/
+frames/
+.venv-tts/
+*.pyc
+__pycache__/
+shots/
+replay/

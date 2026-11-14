@@ -1,0 +1,84 @@
+{
+ "about": "Two real Zoom recordings checked by hand on 12 Nov 2026 (names from tiles, the agenda and what people say; slides from frames). Each check allows the right answer or 'unnamed', never a wrong name: a wrong name is worse than none.",
+ "cases": {
+  "crcog": {
+   "file": "CRCOG_Legislative_Committee_20261014.mp4",
+   "layout": "Zoom: gallery with name labels, then a shared slide deck with a strip of tiles on the right",
+   "line_speaker": [
+    {
+     "line": "start with a motion to approve the minutes",
+     "allowed": [
+      "Lisa Thomas"
+     ]
+    },
+    {
+     "line": "So moved, Madam Chair",
+     "allowed": [
+      "Jonathan Colman",
+      null
+     ]
+    },
+    {
+     "line": "This is Jason",
+     "allowed": [
+      "Jason",
+      "Jason Hayes",
+      null
+     ]
+    },
+    {
+     "line": "ask Donna if she",
+     "allowed": [
+      "Matt Hart",
+      null
+     ]
+    },
+    {
+     "line": "favoring land that's already developed",
+     "allowed": [
+      "Caitlin Palmer",
+      null
+     ]
+    }
+   ],
+   "forbidden_name_patterns": [
+    "\\sZ$",
+    "^Jason B$",
+    "Education Funding",
+    "\\.\\.\\."
+   ],
+   "shared_screens_min": 15,
+   "slide_titles_any_of": [
+    "Transportation and Mobility",
+    "Regional Housing",
+    "Infrastructure and Community Investment",
+    "Energy Siting",
+    "Statewide Proposals",
+    "Regional Service Sharing"
+   ],
+   "slide_titles_min": 4,
+   "decisions_must_mention": [
+    "minutes",
+    "adjourn"
+   ],
+   "mid_sentence_changes_max": 0.1
+  },
+  "pmm": {
+   "file": "Product_Marketing_Meeting_Weekly_2021-07-26.mp4",
+   "layout": "Zoom: speaker view, then a shared screen (GitLab, Google Docs) with unlabeled tiles on the right",
+   "allowed_names_only": [
+    "William",
+    "Saumya",
+    "Cindy",
+    "Brian",
+    "Cormac",
+    "Aleeta",
+    "Parker"
+   ],
+   "shared_screens_min": 15,
+   "shared_after_s": 978,
+   "shared_after_min": 3,
+   "mid_sentence_changes_max": 0.15
+  }
+ }
+}

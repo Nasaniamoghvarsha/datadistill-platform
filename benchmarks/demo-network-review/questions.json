@@ -1,0 +1,173 @@
+{
+ "written_from": "the original script and slides used to make the demo recording (not from DataDistill output)",
+ "recording": "Demo - network review / Network review meeting.mp4",
+ "questions": [
+  {
+   "q": "By how much did traffic grow compared with last quarter?",
+   "facts": [
+    [
+     "18 percent",
+     "eighteen percent"
+    ]
+   ]
+  },
+  {
+   "q": "Which region grew fastest, and by how much?",
+   "facts": [
+    "northern",
+    [
+     "31 percent",
+     "thirty one percent"
+    ]
+   ]
+  },
+  {
+   "q": "How many new radio sites went live in the north, and when?",
+   "facts": [
+    [
+     "three new radio sites",
+     "3 new radio sites"
+    ],
+    "August"
+   ]
+  },
+  {
+   "q": "How many radio sites have been upgraded?",
+   "facts": [
+    [
+     "42 sites",
+     "forty two sites"
+    ]
+   ]
+  },
+  {
+   "q": "How many upgrades remain, and when are they scheduled?",
+   "facts": [
+    [
+     "11",
+     "eleven"
+    ],
+    "October"
+   ]
+  },
+  {
+   "q": "How much did energy consumption go down?",
+   "facts": [
+    [
+     "9 percent",
+     "nine percent"
+    ]
+   ]
+  },
+  {
+   "q": "What produced most of the energy saving?",
+   "facts": [
+    "sleep modes",
+    [
+     "300 sites",
+     "three hundred sites"
+    ]
+   ]
+  },
+  {
+   "q": "What is the main risk?",
+   "facts": [
+    [
+     "antennas",
+     "antenna"
+    ],
+    "supplier"
+   ]
+  },
+  {
+   "q": "How many sites could move into the next quarter?",
+   "facts": [
+    [
+     "4 sites",
+     "four sites"
+    ]
+   ]
+  },
+  {
+   "q": "Who will negotiate a partial delivery?",
+   "facts": [
+    "Maria",
+    "partial delivery"
+   ]
+  },
+  {
+   "q": "Who owns the rollout plan?",
+   "facts": [
+    "Johan",
+    "rollout plan"
+   ]
+  },
+  {
+   "q": "How will the rollout be reordered?",
+   "facts": [
+    "highest traffic"
+   ]
+  },
+  {
+   "q": "When will the energy numbers be reviewed again?",
+   "facts": [
+    [
+     "4 weeks",
+     "four weeks"
+    ]
+   ]
+  },
+  {
+   "q": "According to the slide, how much did the southern region grow?",
+   "facts": [
+    [
+     "south",
+     "southern"
+    ],
+    [
+     "9 percent",
+     "plus 9"
+    ]
+   ],
+   "source": "screen"
+  },
+  {
+   "q": "According to the slide, how much did the central region grow?",
+   "facts": [
+    "central",
+    [
+     "12 percent",
+     "plus 12"
+    ]
+   ],
+   "source": "screen"
+  },
+  {
+   "q": "What is the next step of the energy savings programme, according to the slide?",
+   "facts": [
+    "cooling"
+   ],
+   "source": "screen"
+  },
+  {
+   "q": "How many sites are scheduled for October, according to the slide?",
+   "facts": [
+    [
+     "11 sites",
+     "eleven sites"
+    ],
+    "October"
+   ],
+   "source": "screen"
+  },
+  {
+   "q": "What is being done about the antenna supplier delay, according to the slide?",
+   "facts": [
+    [
+     "partial delivery"
+    ]
+   ],
+   "source": "screen"
+  }
+ ]
+}

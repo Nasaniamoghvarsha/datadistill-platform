@@ -1,0 +1,158 @@
+{
+ "written_from": "the FDA's human-written Summary Report of the 6 Nov 2025 DHAC meeting (morning block, 9:00-10:15), with wording checked in FDA's verbatim transcript; never from DataDistill output",
+ "recording": "FDA Digital Health Advisory Committee, 6 Nov 2025, morning block (call to order to the first break, ~71 min)",
+ "questions": [
+  {
+   "q": "Who is the chairperson of this committee meeting?",
+   "facts": [
+    "Bhatt"
+   ]
+  },
+  {
+   "q": "Who is the Designated Federal Official for the committee?",
+   "facts": [
+    [
+     "Williams",
+     "Letise"
+    ]
+   ]
+  },
+  {
+   "q": "Who gave the opening remarks?",
+   "facts": [
+    "Tarver"
+   ]
+  },
+  {
+   "q": "Which DHAC meeting is this: the first, second or third?",
+   "facts": [
+    "second"
+   ]
+  },
+  {
+   "q": "What did last year's inaugural DHAC meeting focus on?",
+   "facts": [
+    [
+     "total product lifecycle",
+     "product lifecycle",
+     "lifecycle"
+    ]
+   ]
+  },
+  {
+   "q": "When does the public comment period on real-world performance of AI devices end?",
+   "facts": [
+    [
+     "december 1st",
+     "december 1"
+    ]
+   ]
+  },
+  {
+   "q": "What is the framework called that lets manufacturers plan future algorithm modifications?",
+   "facts": [
+    [
+     "predetermined change control plan",
+     "pccp"
+    ]
+   ]
+  },
+  {
+   "q": "Which agency did FDA work with to create a coverage pathway for digital behavioral health devices?",
+   "facts": [
+    [
+     "cms",
+     "centers for medicare"
+    ]
+   ]
+  },
+  {
+   "q": "Which conditions do the already authorized digital mental health diagnostic aids address?",
+   "facts": [
+    "adhd",
+    "autism"
+   ]
+  },
+  {
+   "q": "Which device's review via a De Novo request created the device regulation in 2021?",
+   "facts": [
+    [
+     "canvas dx",
+     "canvas"
+    ]
+   ]
+  },
+  {
+   "q": "Through which FDA pathway is a new type of device without a predicate reviewed?",
+   "facts": [
+    "de novo"
+   ]
+  },
+  {
+   "q": "Which risk-management standard did Pamela Scott refer to?",
+   "facts": [
+    "14971"
+   ]
+  },
+  {
+   "q": "Are any of the digital therapeutics cleared so far AI-enabled?",
+   "facts": [
+    [
+     "none of them",
+     "none",
+     "no"
+    ]
+   ]
+  },
+  {
+   "q": "Which special controls apply to digital mental health therapeutics?",
+   "facts": [
+    "hazard analysis",
+    "labeling"
+   ]
+  },
+  {
+   "q": "Which branch of the military is Anthony Becker from?",
+   "facts": [
+    "navy"
+   ]
+  },
+  {
+   "q": "What two vulnerabilities of large language models did Anthony Becker describe?",
+   "facts": [
+    "sycophancy",
+    "metacognition"
+   ]
+  },
+  {
+   "q": "Which test do these models now pass, according to Anthony Becker?",
+   "facts": [
+    "turing"
+   ]
+  },
+  {
+   "q": "Which organization does Vaile Wright work for?",
+   "facts": [
+    "american psychological association"
+   ]
+  },
+  {
+   "q": "What provider-facing AI products did Vaile Wright mention?",
+   "facts": [
+    [
+     "scribes",
+     "scribe"
+    ]
+   ]
+  },
+  {
+   "q": "What did Vaile Wright say is most critically needed for FDA-cleared products?",
+   "facts": [
+    [
+     "public repository",
+     "repository"
+    ]
+   ]
+  }
+ ]
+}
